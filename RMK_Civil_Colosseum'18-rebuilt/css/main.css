@@ -1589,8 +1589,9 @@ input::-moz-focus-inner {
     left: 30px;
   }
   .header-logo img {
-    width: 180px;
-    height: 34px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: -35px;
   }
 
   .header-menu-toggle {
