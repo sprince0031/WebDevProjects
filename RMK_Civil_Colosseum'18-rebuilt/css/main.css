@@ -1650,7 +1650,7 @@ input::-moz-focus-inner {
   background: #000000;
 }
 
-.bg-video {
+/* .bg-video {
   position:absolute;
   overflow: hidden;
   top: 0;
@@ -1660,7 +1660,7 @@ input::-moz-focus-inner {
   width:100%;
   height: auto;
   z-index: -1;
-}
+} */
 
 
 /* ------------------------------------------------------------------- 
@@ -1673,6 +1673,9 @@ input::-moz-focus-inner {
   vertical-align: middle;
   padding-bottom: 15.6rem;
   overflow: hidden;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
   /*position: relative;*/
   /*background-color: #293442;*/
 
@@ -2250,7 +2253,7 @@ html.no-csstransitions .home-content__main {
 
 #about {
   width: 100%;
-  margin-top: -95px;
+  /* margin-top: -95px; */
 }
 
 /* ------------------------------------------------------------------- 
@@ -2757,6 +2760,19 @@ html.no-csstransitions .home-content__main {
 
   .bus-content {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .bus-content {
+    font-size: 2vw;
+    width: 100%;
+    padding: 1px;
+  }
+
+  .bus {
+    width: 100%;
+    padding: 2px;
   }
 }
 
