@@ -2191,7 +2191,6 @@ html.no-csstransitions .home-content__main {
   padding-top: 10rem;
   padding-bottom: 10rem;
   position: relative;
-  background:url(../images/footer-image.png) no-repeat bottom center #fff;
   background-size:contain;
 }
 
@@ -2726,7 +2725,7 @@ html.no-csstransitions .home-content__main {
 }
 @media only screen and (max-width: 1100px) {
   .bus-content {
-    width: 90%;
+    width: 100%;
     max-width: 800px;
   }
 }
@@ -2797,6 +2796,8 @@ html.no-csstransitions .home-content__main {
   background-image: url(/images/wood-bus.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
+  width: 100%;
+  text-align: center;
 }
 
 .bus-content th {
@@ -2812,7 +2813,9 @@ html.no-csstransitions .home-content__main {
 
 .bus-content {
   margin: 0 auto;
+  align-content: center;
   background: rgba(0, 0, 0, 0.75);
+  width: 100%;
   border-radius: 2%;
 }
 
@@ -2825,7 +2828,6 @@ html.no-csstransitions .home-content__main {
   padding-bottom: 10rem;
   color:#fff;
   position: relative;
-  background:url(../images/footer-image.png) no-repeat bottom center #121212;
   background-size:contain;
   border-bottom:8px solid #75010a;
 }
